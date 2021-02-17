@@ -19,7 +19,7 @@
       "title": "DataViz Makeover Assignments",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-17T21:08:29+08:00"
+      "last_modified": "2021-02-17T21:13:22+08:00"
     },
     {
       "path": "home.html",
@@ -27,14 +27,14 @@
       "description": "Some additional details about the blog\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-17T20:50:05+08:00"
+      "last_modified": "2021-02-17T21:10:27+08:00"
     },
     {
       "path": "index.html",
       "title": "My Data Visualisation Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-17T20:50:46+08:00"
+      "last_modified": "2021-02-17T21:10:27+08:00"
     }
   ],
   "collections": ["posts/posts.json"]
