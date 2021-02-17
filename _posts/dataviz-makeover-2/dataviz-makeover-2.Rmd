@@ -1,7 +1,7 @@
 ---
 title: "DataViz Makeover 2"
 description: |
-  This visualisation presents lorem ipsum.
+  This visualisation presents people's sentiment towards a COVID-19 vaccine.
 author:
   - name: Andy WONG 
     url: https://www.linkedin.com/in/andywongkh
