@@ -31,7 +31,7 @@ A research team is currently conducting a study to understand public sentiment r
 4.	Provided step-by-step descriptions on how the data visualisation was prepared. (30 marks)
 5.	Describe three major observations revealed by the data visualisation prepared. (15 marks)
 
-The remade data visualisation can be viewed on [Tableau Public](https://public.tableau.com/views/DataVizMakeover1_16116436098390/LFPR2009-2019).
+The remade data visualisation can be viewed on [Tableau Public](https://public.tableau.com/profile/andywong#!/vizhome/DataVizMakeover2_16135480721590/SentimenttowardCOVID-19vaccine).
 
 # 2.0 Makeover
 ## 2.1 Critique of the visualisation, and suggested improvements
