@@ -6,7 +6,11 @@ output_dir: "_site"
 navbar:
   right:
     - text: "Home"
-      href: index.html
+      href: home.html
+    - text: "DataViz Makeover Assignments"
+      href: dataviz.html
+    - text: "Data Visualisation Project"
+      href: vap.html
     - text: "About"
       href: about.html
 output: distill::distill_article

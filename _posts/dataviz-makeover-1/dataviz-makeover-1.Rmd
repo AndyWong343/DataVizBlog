@@ -107,7 +107,7 @@ This visualisation was built using [Tableau Desktop Professional Edition 2020.4.
 **Step 22. Completed visualisation**</br>The completed chart looks like this:</br>![](images/picture23.jpg){width=100%}
 
 
-### 2.4 Key observations from the visualisation
+### 2.4 Kkey observations from the visualisation
 S/n | Observation
 - | -------------
 1 | The largest increase in LFPR from 2009 to 2019 was among the 50 to 64, and 65 to 69 age groups. This kind of shift in LFPR was to be expected of an [ageing population](https://stats.mom.gov.sg/Pages/Labour-Force-In-Singapore-2019.aspx) as more older workers joined the workforce than their younger counterparts.

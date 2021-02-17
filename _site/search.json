@@ -1,0 +1,33 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Welcome to My DataViz Blog",
+      "description": "This is where I blog on my data analytics and visualisation journey.\n",
+      "author": [
+        {
+          "name": "Andy Wong (BBM, BCCE)",
+          "url": "https://www.linkedin.com/in/andywongkh"
+        }
+      ],
+      "date": "01-26-2021",
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-17T20:21:13+08:00"
+    },
+    {
+      "path": "dataviz.html",
+      "title": "DataViz Makeover Assignments",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-17T20:21:37+08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "My Data Visualisation Blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-17T20:22:11+08:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
