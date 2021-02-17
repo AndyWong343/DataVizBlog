@@ -1,11 +1,21 @@
+---
+title: "Visual Analytics Project"
+description: |
+  Group project work for this course.
+author:
+  - name: Andy WONG 
+    url: https://www.linkedin.com/in/andywongkh
+date: 01-28-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+# Visual Analytics Project
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
-
-
+Coming soon!
