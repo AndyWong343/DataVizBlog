@@ -1,0 +1,12 @@
+name: "DataVizBlog"
+title: "My Data Visualisation Blog"
+description: |
+  My Data Visualisation Blog
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
