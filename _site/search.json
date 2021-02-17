@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-17T18:55:37+08:00"
+      "last_modified": "2021-02-17T19:43:07+08:00"
     },
     {
       "path": "index.html",
       "title": "My Data Visualisation Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-17T18:53:31+08:00"
+      "last_modified": "2021-02-17T19:43:41+08:00"
     }
   ],
   "collections": ["posts/posts.json"]
