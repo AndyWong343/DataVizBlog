@@ -38,15 +38,15 @@ The remade data visualisation can be viewed on [Tableau Public](https://public.t
 ### **2.1.1 Clarity**
 S/n | Critique | Suggestions for improvement
 - | ------ | ------
-1 | _The graphs do not show the confidence intervals of the responses._ This does not provide a good sense of how reliable the survey score is. | _Include a confidence interval_ for a more accurate presentation of the survey results.
-2 | _The visualisation is one-dimensional and too simplistic._</br></br>a) It does not take into account demographic data such as gender, age, employment status, and household constitution.</br></br>b) It only presents data from one single survey question. To have a fuller understanding of the people’s sentiment to the vaccine, other relevant questions should be included. | _Introduce more dimensions to the visualisation._</br></br>a) Include demographic profiling into the visualisation for a more nuanced presentation of the data.</br></br>b) Introduce other relevant survey questions for a deeper and fuller understanding of the data.
-3 | _The stacked bar chart can more accurately reflect what the survey responses are._ While the stacked bars show the proportion of responses according to the survey score, it does not visually show the positive- or negative-leaning of the general sentiment. | _Redesign the stacked bar chart_ to show the general consensus of the responses in a more visually intuitive way.
+1 | _The graphs do not show the confidence intervals of the responses._ This does not provide a good sense of how reliable the survey score is. A better sense of the variability and reliability of the survey response can be offered if a confidence interval were present in the visualisation. | _Include a confidence interval_ for a more accurate and reliable presentation of the survey results.
+2 | _The visualisation is one-dimensional and too simplistic._</br></br>a) It does not take into account demographic data such as gender, age, employment status, and household constitution. This makes the graph too general and simplistic for useful sense-making.</br></br>b) It only presents data from one single survey question, which does not provide sufficient context to the responses and therefore sentiment of the respondents. To have a fuller understanding of public sentiment to the vaccine, other relevant questions should be included. | _Introduce more dimensions to the visualisation._</br></br>a) Include demographic profiles into the visualisation for a more nuanced presentation of the data.</br></br>b) Introduce other relevant survey questions for a deeper and fuller understanding of the data.
+3 | _The stacked bar chart can more accurately reflect what the survey responses are._ While the stacked bars show the proportion of responses according to the survey score, it does not visually show the positive- or negative-leaning of the general sentiment. This would be useful to know the public's sentiment to certain survey questions. | _Redesign the stacked bar chart_ to show the general consensus of the responses in a more visually intuitive way.
 
 ### **2.1.2 Aesthetics**
 S/n | Critique | Suggestions for improvement
 - | ------ | ------
 1 | _The colour scheme for the right-hand chart does not corroborate to the usual meaning of the colours._ Red typically has the opposite meaning of blue, and so if blue is 1, red should be 5 and not 3. | _Improve the colour scheme_ of the chart to be more intuitive.
-2 | _The right-hand chart does not add much more value to the visualisation_ other than sorting the countries in descending order of responses to survey score 1. | _Redesign the right-hand chart entirely_ for better presentation of the data.
+2 | _The right-hand chart does not add much more value to the visualisation_ other than sorting the countries in descending order of responses to survey score 1. This is too broad a generalisation for the visualisation to offer any meaningful insight other than the countries that are more 'pro-vaccine' based on score 1. | _Redesign the right-hand chart entirely_ for better presentation of the data.
 3 | _Lack of editing and proofreading of the title_. Spelling mistakes and grammatical errors, although not critical in themselves, distract from that which is critical: the main content and message of the visualisations. | _Ensure proper editing and proofreading of the content_ (eg. 'vaccine', not 'vacinne') to enhance the overall presentation and bring focus to the critical message of the visualisation. The names of the countries could also be shown to their proper format ('United Kingdom' instead of 'united-kingdom'), and capitalised.
 
 Based on the above assessment, the chart falls across Quadrants I and IV of the matrix:
@@ -56,6 +56,14 @@ Based on the above assessment, the chart falls across Quadrants I and IV of the 
 ## 2.2 Sketch an alternative visualisation
 </br>
 ![](images/sketch.jpg){width=100%}
+
+The proposed visualisation as sketched out offers comparison with a country, as well as across countries. This will provide a better comparison of public sentiment for each survey question.
+
+The visualisation will also allow for customisation of demographic data for more nuanced visualisation, depending on the user's scope of interest.
+
+A confidence interval will also be shown (in the right-hand chart), to allow for more accurate understanding of the survey responses.
+
+The colours of the left-hand chart will also be adjusted to be more intuitive.
 
 ## 2.3 Build the visualisation
 

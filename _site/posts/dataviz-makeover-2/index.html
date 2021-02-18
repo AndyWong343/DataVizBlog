@@ -2132,17 +2132,17 @@ document.addEventListener('DOMContentLoaded', function() {
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td><em>The graphs do not show the confidence intervals of the responses.</em> This does not provide a good sense of how reliable the survey score is.</td>
-<td><em>Include a confidence interval</em> for a more accurate presentation of the survey results.</td>
+<td><em>The graphs do not show the confidence intervals of the responses.</em> This does not provide a good sense of how reliable the survey score is. A better sense of the variability and reliability of the survey response can be offered if a confidence interval were present in the visualisation.</td>
+<td><em>Include a confidence interval</em> for a more accurate and reliable presentation of the survey results.</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td><em>The visualisation is one-dimensional and too simplistic.</em></br></br>a) It does not take into account demographic data such as gender, age, employment status, and household constitution.</br></br>b) It only presents data from one single survey question. To have a fuller understanding of the people’s sentiment to the vaccine, other relevant questions should be included.</td>
-<td><em>Introduce more dimensions to the visualisation.</em></br></br>a) Include demographic profiling into the visualisation for a more nuanced presentation of the data.</br></br>b) Introduce other relevant survey questions for a deeper and fuller understanding of the data.</td>
+<td><em>The visualisation is one-dimensional and too simplistic.</em></br></br>a) It does not take into account demographic data such as gender, age, employment status, and household constitution. This makes the graph too general and simplistic for useful sense-making.</br></br>b) It only presents data from one single survey question, which does not provide sufficient context to the responses and therefore sentiment of the respondents. To have a fuller understanding of public sentiment to the vaccine, other relevant questions should be included.</td>
+<td><em>Introduce more dimensions to the visualisation.</em></br></br>a) Include demographic profiles into the visualisation for a more nuanced presentation of the data.</br></br>b) Introduce other relevant survey questions for a deeper and fuller understanding of the data.</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td><em>The stacked bar chart can more accurately reflect what the survey responses are.</em> While the stacked bars show the proportion of responses according to the survey score, it does not visually show the positive- or negative-leaning of the general sentiment.</td>
+<td><em>The stacked bar chart can more accurately reflect what the survey responses are.</em> While the stacked bars show the proportion of responses according to the survey score, it does not visually show the positive- or negative-leaning of the general sentiment. This would be useful to know the public’s sentiment to certain survey questions.</td>
 <td><em>Redesign the stacked bar chart</em> to show the general consensus of the responses in a more visually intuitive way.</td>
 </tr>
 </tbody>
@@ -2169,7 +2169,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </tr>
 <tr class="even">
 <td>2</td>
-<td><em>The right-hand chart does not add much more value to the visualisation</em> other than sorting the countries in descending order of responses to survey score 1.</td>
+<td><em>The right-hand chart does not add much more value to the visualisation</em> other than sorting the countries in descending order of responses to survey score 1. This is too broad a generalisation for the visualisation to offer any meaningful insight other than the countries that are more ‘pro-vaccine’ based on score 1.</td>
 <td><em>Redesign the right-hand chart entirely</em> for better presentation of the data.</td>
 </tr>
 <tr class="odd">
@@ -2182,6 +2182,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>Based on the above assessment, the chart falls across Quadrants I and IV of the matrix: </br> <img src="images/quadrant.jpg" style="width:100.0%" /></p>
 <h2 id="sketch-an-alternative-visualisation">2.2 Sketch an alternative visualisation</h2>
 <p></br> <img src="images/sketch.jpg" style="width:100.0%" /></p>
+<p>The proposed visualisation as sketched out offers comparison with a country, as well as across countries. This will provide a better comparison of public sentiment for each survey question.</p>
+<p>The visualisation will also allow for customisation of demographic data for more nuanced visualisation, depending on the user’s scope of interest.</p>
+<p>A confidence interval will also be shown (in the right-hand chart), to allow for more accurate understanding of the survey responses.</p>
+<p>The colours of the left-hand chart will also be adjusted to be more intuitive.</p>
 <h2 id="build-the-visualisation">2.3 Build the visualisation</h2>
 <h3 id="import-the-data">2.3.1 Import the data</h3>
 <p>Step 1: Open Tableau. Add in any one of the data files as the data source. <img src="images/opendatafile.jpg" style="width:100.0%" /></p>
