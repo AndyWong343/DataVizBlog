@@ -511,13 +511,10 @@ Overall, there is an openness to being vaccinated against COVID-19 across all co
 ### Observation 2: Females are generally more concerned about contracting COVID-19 than males.
 This pertains to survey question _Vac 2-1_. All countries except Singapore show that, at a confidence interval of 95%, the female population (orange line) are more concerned about contracting the coronavirus compared to males (blue line).</br>![](images/femalesmoreconcernedthanmales.jpg){width=100%}
 
-### Observation 3: Older people are generally less concerned about the side-effects of a vaccine.
-This pertains to survey question _Vac 2-2_. Across all countries, respondents aged 65 to 99 years indicate that they are less concerned about the side-effects of a vaccine...</br>![](images/sideeffects65andabove.jpg){width=75%}</br>...compared to younger people (18 to 64 years old).</br>![](images/sideeffects18to64.jpg){width=100%}
-
-### Observation 3: Older people, and typically males, are generally less concerned about the side-effects of a vaccine.
+### Observation 3: Older people, typically males, are generally less concerned about the side-effects of a vaccine.
 This pertains to survey question _Vac 2-2_. Across all countries, respondents aged 65 to 99 years indicate that they are less concerned about the side-effects of a vaccine, compared to younger people (18 to 64 years old).</br>![](images/sideeffects65andabove.jpg){width=100%}</br>![](images/sideeffects18to64.jpg){width=100%}
 
-From the visualisation, we can see that this age group of respondents has longer 95% confidence interval lines, compared to across all age groups. This could be because there are comparatively less respondents from this age group. Females in this age category tend to be more concerned about side effects than males. </br>![](images/cifor65andabove.jpg){width=100%}</br>
+From the visualisation below, we can see that respondents in the 65 to 99 year ols age group have longer 95% confidence interval lines compared to across all age groups. This could be because there are comparatively less respondents from this particular age group. Males in this age category tend to be less concerned about side effects than females. </br>![](images/cifor65andabove.jpg){width=100%}</br>
 
 # Appendix
 
