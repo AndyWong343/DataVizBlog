@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # 1.0 Introduction
 One year on, the COVID-19 pandemic continues raging and is still very much on everyone’s mind. 2021 started with a faint glimmer of hope as vaccinations begin to roll out across the world. Countries that have access to the various vaccines are doing their best to fight against a current of anti-vaccine sentiment. While many people are hopeful that the vaccine will finally bring the pandemic under control, many others are wary of the potential dangers of being inoculated with a vaccine so new that any potential long-term side effects have yet to be uncovered. Compounding this fear is the fact that many of these vaccines were pushed through approval processes at lightning speed, causing people to question if the proper processes and due diligence were maintained.
 
-[YouGov, together with Imperial College London](https://yougov.co.uk/topics/politics/articles-reports/2020/04/11/covid-19-how-yougov-partnership-imperial-college-), conducts an ongoing survey to gather data on people’s behaviours in response to COVID-19. This blog uses the publicly available data and focuses on people’s sentiments to the COVID-19 vaccines in particular, within January 2021.
+[YouGov, together with Imperial College London](https://yougov.co.uk/topics/politics/articles-reports/2020/04/11/covid-19-how-yougov-partnership-imperial-college-), conducts an ongoing survey to gather data on people’s behaviours in response to COVID-19. This blog uses the publicly available data and focuses on people’s sentiments to the COVID-19 vaccines in particular. The scope of this visualisation is for survey responses from January 2021.
 
 ## 1.1 The Scene
 A research team is currently conducting a study to understand public sentiment regarding the COVID-19 vaccines. Below are two data visualisations created by one of the research scientists.![](images/originalchart.jpg){width=100%}
@@ -38,16 +38,16 @@ The remade data visualisation can be viewed on [Tableau Public](https://public.t
 ### **2.1.1 Clarity**
 S/n | Critique | Suggestions for improvement
 - | ------ | ------
-1 | _The graphs do not show the confidence intervals of the responses._ This does not provide a good sense of how reliable the survey score is. A better sense of the variability and reliability of the survey response can be offered if a confidence interval were present in the visualisation. | _Include a confidence interval_ for a more accurate and reliable presentation of the survey results.
-2 | _The visualisation is one-dimensional and too simplistic._</br></br>a) It does not take into account demographic data such as gender, age, employment status, and household constitution. This makes the graph too general and simplistic for useful sense-making.</br></br>b) It only presents data from one single survey question, which does not provide sufficient context to the responses and therefore sentiment of the respondents. To have a fuller understanding of public sentiment to the vaccine, other relevant questions should be included. | _Introduce more dimensions to the visualisation._</br></br>a) Include demographic profiles into the visualisation for a more nuanced presentation of the data.</br></br>b) Introduce other relevant survey questions for a deeper and fuller understanding of the data.
-3 | _The stacked bar chart can more accurately reflect what the survey responses are._ While the stacked bars show the proportion of responses according to the survey score, it does not visually show the positive- or negative-leaning of the general sentiment. This would be useful to know the public's sentiment to certain survey questions. | _Redesign the stacked bar chart_ to show the general consensus of the responses in a more visually intuitive way.
+1 | _The graphs do not show the confidence intervals of the responses._ This does not provide a good sense of how reliable the survey scores are. A better sense of the variability and reliability of the survey responses can be given if a confidence interval were presented in the visualisation. | _Include the confidence interval of the survey scores_ for a more holistic and reliable presentation of the survey results.
+2 | _The visualisation is one-dimensional and too simplistic._</br></br>a) It does not take into account demographic data such as gender, age, employment status, and household constitution. The data presented is too broad and simplistic for useful sense-making.</br></br>b) It only presents data from one single survey question, which does not provide sufficient context to the responses and sentiment of the respondents. To have a fuller understanding of public sentiment, other relevant survey questions should be included. | _Introduce more dimensions into the visualisation._</br></br>a) Include demographic profiles into the visualisation for a more nuanced presentation of the data.</br></br>b) Introduce other relevant survey questions for a deeper and fuller understanding of the data.
+3 | _The stacked bar chart can more accurately reflect what the survey responses are._ While the stacked bars show the proportion of responses according to the survey score, it does not clearly show the positive- or negative-leaning of the responses to each survey question. It would be useful to know the public's general leaning in response to the various questions. | _Redesign the stacked bar chart_ to show the general consensus of the responses in a more visually intuitive way.
 
 ### **2.1.2 Aesthetics**
 S/n | Critique | Suggestions for improvement
 - | ------ | ------
-1 | _The colour scheme for the right-hand chart does not corroborate to the usual meaning of the colours._ Red typically has the opposite meaning of blue, and so if blue is 1, red should be 5 and not 3. | _Improve the colour scheme_ of the chart to be more intuitive.
-2 | _The right-hand chart does not add much more value to the visualisation_ other than sorting the countries in descending order of responses to survey score 1. This is too broad a generalisation for the visualisation to offer any meaningful insight other than the countries that are more 'pro-vaccine' based on score 1. | _Redesign the right-hand chart entirely_ for better presentation of the data.
-3 | _Lack of editing and proofreading of the title_. Spelling mistakes and grammatical errors, although not critical in themselves, distract from that which is critical: the main content and message of the visualisations. | _Ensure proper editing and proofreading of the content_ (eg. 'vaccine', not 'vacinne') to enhance the overall presentation and bring focus to the critical message of the visualisation. The names of the countries could also be shown to their proper format ('United Kingdom' instead of 'united-kingdom'), and capitalised.
+1 | _The colour scheme for the right-hand chart does not corroborate to the usual meaning of the colours._ Red typically has the opposite meaning of blue, and so if blue is 1, red should be 5. | _Improve the colour scheme_ of the chart to be more intuitive.
+2 | _The right-hand chart does not add much more value to the visualisation_ other than to sort the countries in descending order of responses to survey score 1. This is too broad a generalisation for the visualisation to offer any meaningful insight other than the countries that are more 'pro-vaccine' based on score 1. | _Redesign the right-hand chart entirely_ to provide more insight to the data. This could include any of the suggestions for improvement discussed in sections 2.1.1 and 2.1.2.
+3 | _Lack of editing and proofreading of the title of the graph_. Spelling mistakes and grammatical errors, although not critical in themselves, distract from that which is critical: the main content and message of the visualisations. In the left-hand chart, 'vaccine' was spelt as 'vacinne'. | _Ensure proper editing and proofreading of the content_ (eg. 'vaccine', not 'vacinne') to enhance the overall presentation and bring focus to the critical message of the visualisation. The names of the countries could also be shown to their proper format ('United Kingdom' instead of 'united-kingdom'), and capitalised.
 
 Based on the above assessment, the chart falls across Quadrants I and IV of the matrix:
 </br>
@@ -57,15 +57,15 @@ Based on the above assessment, the chart falls across Quadrants I and IV of the 
 </br>
 ![](images/sketch.jpg){width=100%}
 
-The proposed visualisation as sketched out offers comparison with a country, as well as across countries. This will provide a better comparison of public sentiment for each survey question.
+The proposed visualisation above offers comparison with a country, as well as across countries. This will provide a better comparison of public sentiment across regions, for each survey question.
 
-The visualisation will also allow for customisation of demographic data for more nuanced visualisation, depending on the user's scope of interest.
+The visualisation will allow for customisation of demographic data for more nuanced visualisation, depending on the user's scope of interest.
 
-A confidence interval will also be shown (in the right-hand chart), to allow for more accurate understanding of the survey responses.
+A confidence interval will be shown in the visualisation (right-hand chart) to allow for more accurate understanding of the survey responses.
 
-The colours of the left-hand chart will also be adjusted to be more intuitive.
+The colours of the left-hand chart will be adjusted to be more intuitive.
 
-## 2.3 Build the visualisation
+## 2.3 Build the proposed visualisation
 
 ### 2.3.1 Import the data
 Step 1: Open Tableau. Add in any one of the data files as the data source.
@@ -506,15 +506,18 @@ Step 123: The final dashboard is shown below.</br>
 ### Observation 1: People are generally open to being vaccinated against COVID-19.
 This pertains to survey questions _Vac 1_, _Vac 2-3_, _Vac 2-6_, and _Vac 3_.
 
-Overall, there is an openness to being vaccinated against COVID-19 across all countries. This can be seen from the longer bars for Strongly Agree (blue bar) and Agree (teal bar) vis-a-vis Strongly Disagree (red bar) and Disagree (pink bar), indicating a higher proportion of responses to Strongly Agree and Agree. See sample below.</br></br>![](images/observationcontracingcovid.jpg){width=75%}
+Overall, there is an openness to being vaccinated against COVID-19 across all countries. This can be seen from the longer bars for Strongly Agree (blue bar) and Agree (teal bar) vis-a-vis Strongly Disagree (red bar) and Disagree (pink bar), indicating a higher proportion of responses to Strongly Agree and Agree. See sample below.</br></br>![](images/observationcontracingcovid.jpg){width=100%}
 
 ### Observation 2: Females are generally more concerned about contracting COVID-19 than males.
-This pertains to survey question _Vac 2-1_. All countries except Singapore show that, at a confidence interval of 95%, the female population (orange line) are more concerned about contracting the coronavirus compared to males (blue line).</br>![](images/observationcontracingcovid.jpg){width=75%}
+This pertains to survey question _Vac 2-1_. All countries except Singapore show that, at a confidence interval of 95%, the female population (orange line) are more concerned about contracting the coronavirus compared to males (blue line).</br>![](images/femalesmoreconcernedthanmales.jpg){width=100%}
 
 ### Observation 3: Older people are generally less concerned about the side-effects of a vaccine.
-This pertains to survey question _Vac 2-2_. Across all countries, respondents aged 65 to 99 years indicate that they are less concerned about the side-effects of a vaccine...</br>![](images/sideeffects65andabove.jpg){width=75%}</br>...compared to younger people (18 to 64 years old).</br>![](images/sideeffects18to64.jpg){width=75%}
+This pertains to survey question _Vac 2-2_. Across all countries, respondents aged 65 to 99 years indicate that they are less concerned about the side-effects of a vaccine...</br>![](images/sideeffects65andabove.jpg){width=75%}</br>...compared to younger people (18 to 64 years old).</br>![](images/sideeffects18to64.jpg){width=100%}
 
-From the visualisation, we can see that this age group of respondents has longer 95% confidence interval lines, compared to across all age groups. This could be because there are comparatively less respondents from this age group. Females in this age category tend to be more concerned about side effects than males. </br>![](images/cifor65andabove.jpg){width=75%}</br>
+### Observation 3: Older people, and typically males, are generally less concerned about the side-effects of a vaccine.
+This pertains to survey question _Vac 2-2_. Across all countries, respondents aged 65 to 99 years indicate that they are less concerned about the side-effects of a vaccine, compared to younger people (18 to 64 years old).</br>![](images/sideeffects65andabove.jpg){width=100%}</br>![](images/sideeffects18to64.jpg){width=100%}
+
+From the visualisation, we can see that this age group of respondents has longer 95% confidence interval lines, compared to across all age groups. This could be because there are comparatively less respondents from this age group. Females in this age category tend to be more concerned about side effects than males. </br>![](images/cifor65andabove.jpg){width=100%}</br>
 
 # Appendix
 
