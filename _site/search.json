@@ -27,14 +27,28 @@
       "description": "Some additional details about the blog\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-17T21:10:27+08:00"
+      "last_modified": "2021-02-22T14:01:28+08:00"
     },
     {
       "path": "index.html",
       "title": "My Data Visualisation Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-17T21:10:27+08:00"
+      "last_modified": "2021-02-22T14:01:28+08:00"
+    },
+    {
+      "path": "vap.html",
+      "title": "Visual Analytics Project",
+      "description": "Group project work for this course.\n",
+      "author": [
+        {
+          "name": "Andy WONG",
+          "url": "https://www.linkedin.com/in/andywongkh"
+        }
+      ],
+      "date": "01-28-2021",
+      "contents": "\r\nVisual Analytics Project\r\nComing soon!\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-22T14:07:14+08:00"
     }
   ],
   "collections": ["posts/posts.json"]
