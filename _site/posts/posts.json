@@ -34,23 +34,6 @@
     "input_file": {}
   },
   {
-    "path": "posts/vap/",
-    "title": "Visual Analytics Project",
-    "description": "Group project work for this course.",
-    "author": [
-      {
-        "name": "Andy WONG",
-        "url": "https://www.linkedin.com/in/andywongkh"
-      }
-    ],
-    "date": "2021-01-28",
-    "categories": [],
-    "contents": "\r\nVisual Analytics Project\r\nComing soon!\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-02-17T21:09:53+08:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/dataviz-makeover-1/",
     "title": "DataViz Makeover 1",
     "description": "This visualisation presents the growth of Singapore's Labour Force Participation Rate (LFPR) from 2009 to 2019.",
@@ -66,6 +49,23 @@
     "preview": {},
     "last_modified": "2021-02-17T21:57:31+08:00",
     "input_file": "dataviz-makeover-1.utf8.md"
+  },
+  {
+    "path": "posts/vap/",
+    "title": "Visual Analytics Project",
+    "description": "Group project work for this course.",
+    "author": [
+      {
+        "name": "Andy WONG",
+        "url": "https://www.linkedin.com/in/andywongkh"
+      }
+    ],
+    "date": "2021-01-28",
+    "categories": [],
+    "contents": "\r\nVisual Analytics Project\r\nComing soon!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-02-22T14:01:28+08:00",
+    "input_file": "vap.utf8.md"
   },
   {
     "path": "posts/welcome/",
