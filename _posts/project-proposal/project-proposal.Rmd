@@ -1,5 +1,5 @@
 ---
-title: "Visual Analytics Project"
+title: "Visual Analytics Project Proposal"
 description: |
   Group project work for this course.
 author:
