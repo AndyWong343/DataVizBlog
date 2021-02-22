@@ -51,7 +51,7 @@
     "input_file": {}
   },
   {
-    "path": "posts/vap/",
+    "path": "posts/project-proposal/",
     "title": "Visual Analytics Project",
     "description": "Group project work for this course.",
     "author": [
@@ -64,8 +64,8 @@
     "categories": [],
     "contents": "\r\nVisual Analytics Project\r\nComing soon!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-02-22T14:01:28+08:00",
-    "input_file": {}
+    "last_modified": "2021-02-22T14:13:17+08:00",
+    "input_file": "project-proposal.utf8.md"
   },
   {
     "path": "posts/welcome/",

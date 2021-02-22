@@ -1,21 +1,6 @@
 ---
 title: "Visual Analytics Project"
-description: |
-  Group project work for this course.
-author:
-  - name: Andy WONG 
-    url: https://www.linkedin.com/in/andywongkh
-date: 01-28-2021
-output:
-  distill::distill_article:
-    self_contained: false
+listing:
+  posts:
+    - project-proposal
 ---
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-# Visual Analytics Project
-
-Coming soon!
