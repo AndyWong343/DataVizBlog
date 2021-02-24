@@ -25,7 +25,7 @@ A common challenge for many hosts is how to price their listing competitively co
 
 # Project Objectives
 * Develop an interactive application for end-users
-* 
+* Visual representation of accommodation listings by region
 
 # Proposed Scope and Methodology
 This project will focus on Australia as the location of interest.
