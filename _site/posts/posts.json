@@ -13,7 +13,7 @@
         "url": {}
       },
       {
-        "name": "WONG Kian Hoong",
+        "name": "WONG Kian Hoong (Andy)",
         "url": {}
       }
     ],
@@ -21,8 +21,8 @@
     "categories": [],
     "contents": "\r\nBackground\r\nAirbnb, Inc. is one of the most well-known vacation rental platforms in the world. With almost 3 million hosts listing over 7 million accommodations worldwide, airbnb is popular with holidaymakers for the wide availability of rental accommodations.\r\nMotivation\r\nA common challenge for many hosts is how to price their listing competitively compared to other listings in the same locale. This project aims to provide an application for airbnb hosts to identify whether they their prices are comparative to other accommodations, or too high/low.\r\nProject Objectives\r\nDevelop an interactive application for end-users\r\n\r\nProposed Scope and Methodology\r\nThis project will focus on Australia as the location of interest.\r\nThe methodology that will be used are: * Exploratory Data Analysis (EDA) * Cluster Analysis * Text Analytics * Development of an R-shiny app with interactive features\r\nApplication Features\r\nThe application will consist of five main sections, one for each analysis approach. Exploratory Data Analysis Cluster Analysis Spatial Cluster Analysis Text Analysis Multilinear Regression Analysis Analysis\r\nSoftware Tool\r\nTha interactive application, together with all documentation such as this project proposal and the final report will be written in R using RStudio.\r\nR Packages\r\nThese are the R packages used:\r\nClustGeo: https://cran.r-project.org/web/packages/ClustGeo\r\ncorrplot: https://cran.r-project.org/web/packages/corrplot\r\ndendextend https://cran.r-project.org/web/packages/dendextend\r\nDT: https://cran.r-project.org/web/packages/DT\r\nGGally: https://cran.r-project.org/web/packages/GGally\r\nggdendro: https://cran.r-project.org/web/packages/ggdendro\r\nGWmodel: https://cran.r-project.org/web/packages/GWmodel\r\nleaflet: https://cran.r-project.org/web/packages/leaflet\r\nplotly: https://cran.r-project.org/web/packages/plotly\r\nRColorBrewer: https://cran.r-project.org/web/packages/RColorBrewer\r\nrgdal: https://cran.r-project.org/web/packages/rgdal\r\nrgeos: https://cran.r-project.org/web/packages/rgeos\r\nsf: https://cran.r-project.org/web/packages/sf\r\nshiny: https://shiny.rstudio.com\r\nshinythemes: https://cran.r-project.org/web/packages/shinythemes\r\nshinyWidgets: https://cran.r-project.org/web/packages/shinyWidgets\r\nsp: https://cran.r-project.org/web/packages/sp\r\nspdep: https://cran.r-project.org/web/packages/spdep\r\ntidyverse: https://www.tidyverse.org\r\ntmap: https://cran.r-project.org/web/packages/tmap\r\nTeam Members\r\nJason TEY Shou Heng\r\nLouelle TEO Fengmin\r\nWONG Kian Hoong (Andy)\r\nReferences\r\nAirbnb, Inc.\r\n2021 Airbnb Statistics: Usage, Demographics, and Revenue Growth\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-02-24T21:12:54+08:00",
-    "input_file": {}
+    "last_modified": "2021-02-24T21:14:30+08:00",
+    "input_file": "project-proposal.utf8.md"
   },
   {
     "path": "posts/dataviz-makeover-2/",
