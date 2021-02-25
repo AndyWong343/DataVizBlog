@@ -10,7 +10,7 @@ navbar:
     - text: "DataViz Makeover Assignments"
       href: dataviz.html
     - text: "Data Visualisation Project"
-      href: vap.html
+      href: "https://isss608grp1.netlify.app/"
     - text: "About"
       href: about.html
 output: distill::distill_article
