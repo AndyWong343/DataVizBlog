@@ -25,11 +25,11 @@ One year on, the COVID-19 pandemic continues raging and is still very much on ev
 A research team is currently conducting a study to understand public sentiment regarding the COVID-19 vaccines. Below are two data visualisations created by one of the research scientists.![](images/originalchart.jpg){width=100%}
 
 ## 1.2 The Task
-1.	Critique the graph for both its clarity and aesthetics. At least three observations from each evaluation criterion. (15 marks)
-2.	With reference to the critique above, suggest an alternative graphical presentation to improve the current design. Sketch out the proposed design. The proposed alternative design should include interactive techniques. Support your design by describing the advantages or which part of the issue(s) your alternative design is trying to overcome. (15 marks)
-3.	Using Tableau, design your proposed data visualisation. (25 marks)
-4.	Provided step-by-step descriptions on how the data visualisation was prepared. (30 marks)
-5.	Describe three major observations revealed by the data visualisation prepared. (15 marks)
+1.	Critique the graph for both its clarity and aesthetics. At least three observations from each evaluation criterion.
+2.	With reference to the critique above, suggest an alternative graphical presentation to improve the current design. Sketch out the proposed design. The proposed alternative design should include interactive techniques. Support your design by describing the advantages or which part of the issue(s) your alternative design is trying to overcome.
+3.	Using Tableau, design your proposed data visualisation.
+4.	Provided step-by-step descriptions on how the data visualisation was prepared.
+5.	Describe three major observations revealed by the data visualisation prepared.
 
 The remade data visualisation can be viewed on [Tableau Public](https://public.tableau.com/profile/andywong#!/vizhome/DataVizMakeover2_16136143601240/PublicsentimenttowardaCOVID-19vaccine).
 
