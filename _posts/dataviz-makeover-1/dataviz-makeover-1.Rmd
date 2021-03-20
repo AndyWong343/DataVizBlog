@@ -2,12 +2,14 @@
 title: "DataViz Makeover 1"
 description: |
   This visualisation presents the growth of Singapore's Labour Force Participation Rate (LFPR) from 2009 to 2019.
+preview: images/picture23.jpg
 author:
   - name: Andy WONG 
     url: https://www.linkedin.com/in/andywongkh
 date: 01-28-2021
 output:
   distill::distill_article:
+    toc: true
     self_contained: false
 ---
 

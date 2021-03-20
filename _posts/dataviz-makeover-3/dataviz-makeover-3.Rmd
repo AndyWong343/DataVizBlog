@@ -1,7 +1,8 @@
 ---
 title: "DataViz Makeover 3"
 description: |
-  This visualisation presents lorem ipsum.
+  This visualisation surfaces the most common and deadliest armed conflicts in Southeast Asia, from 2010 to 2020.</br></br>The visualisation can be seen [here](https://public.tableau.com/profile/andywong#!/vizhome/DataVizMakeover3ArmedconflictinSoutheastAsia/GeolocationofarmedconflictinSoutheastAsia).
+preview: images/finaldashboard.png
 author:
   - name: Andy WONG 
     url: https://www.linkedin.com/in/andywongkh
@@ -18,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # 1.0 Introduction
-On 1 February 2021, the world woke up to news of a coup in Myanmar. The ensuing political violence and the societal harm and economic damage that armed conflict leaves in its wake was once again brought to the fore. Innocent lives were ended and economic activity virtually brought to a standstill.
+On 1 February 2021, the world woke up to news of a coup in Myanmar. Innocent lives were ended and economic activity virtually brought to a standstill. The reality of political violence, societal harm and economic damage that armed conflict leaves in its wake was once again brought to the forefront of our collective minds.
 
 In light of these developments, this dashboard visualises armed conflict in Southeast Asia from 2010 to 2020, with the objective of surfacing the most common and deadliest types of conflict.
 
@@ -28,29 +29,29 @@ This visualisation makes use of data provided by [The Armed Conflict Location & 
 This is a visualisation created to reveal the saptio-temporal patterns of armed conflict in selected Southeast Asian countries between 2015 to 2020. ![](images/assignmentgraph.png){width=100%}
 
 ## 1.2 The Task
-1.	Critique the graph for its clarity, aesthetics and interactivity. At least two observations from each evaluation criterion.
-2.	With reference to the critique above, suggest an alternative data visualisation and interactive techniques to improve the current design. Support your design by describing the advantages or which part of the issue(s) your alternatives design attempts to overcome.
+1.	Critique the visualisation above for its clarity, aesthetics and interactivity. At least two observations from each evaluation criterion.
+2.	With reference to the critique above, suggest an alternative data visualisation and interactive techniques to improve the current design. Support your design by describing the advantages or which part(s) of the issue(s) your alternatives design attempts to overcome.
 3.	Using Tableau, design your proposed data visualisation.
 4.	Provided step-by-step descriptions on how the data visualisation was prepared.
 5.	Describe five major observations revealed by the data visualisation prepared.
 
-The remade data visualisation can be viewed on [Tableau Public](https://public.tableau.com/profile/andywong#!/vizhome/DataVizMakeover3ArmedconflictinSoutheastAsia/GeolocationofarmedconflictinSoutheastAsia).
+The remade data visualisation was created using [Tableau Desktop 2020.4.2](https://www.tableau.com/products/desktop) and can be viewed on [Tableau Public](https://public.tableau.com/profile/andywong#!/vizhome/DataVizMakeover3ArmedconflictinSoutheastAsia/GeolocationofarmedconflictinSoutheastAsia).
 
 # 2.0 Makeover
 ## 2.1 Critique of the visualisation, and suggested improvements
-### **2.1.1 Clarity**
+### 2.1.1 Clarity
 S/n | Critique | Suggestions for improvement
 - | ------ | ------
-1 | The visualisation is clear in presenting the event types (types of conflict). It also allows the user to select which country to focus on. However, this is very limited information and _does not show any other information that might be useful in such analysis._ | _Allow the user to drill down into deeper information_ such as event sub types and number of fatalities specific to each region within a country.
-2 | The visualisation presents a broad overview such as the trend of number of event types from 2015 to 2020 _but does not allow the user to drill into specific years or months._ Therefore, the date of each conflict cannot be identified. This does not provide much useful information for analysis. | _Allow the user to be able to view exact years and months in the visualisation._
+2 | The visualisation is clear in presenting the event types (types of conflict). It also allows the user to select which country to focus on. However, this is very limited information and _does not show any other information that might be useful in such analysis._ | _Allow the user to drill down into deeper information_ such as event sub types and number of fatalities specific to each region within a country.
+1 | The 6 line graphs _do not have uniform ranges in the y-axis._ This makes it confusing for the user and difficult to compare between different event types.| Redesign the line graphs such that the _y-axis ranges are uniform_.
 
-### **2.1.2 Aesthetics**
+### 2.1.2 Aesthetics
 S/n | Critique | Suggestions for improvement
 - | ------ | ------
-1 | _The dots in the map do not provide any further information other than the location of the event._ | _Adjust the size of the dots to represent the number of fatalities._
-2 | _The labels in the line graph are superfluous._ If removed, the size of the graph can be increased for better ease of viewing. | _Remove the labels in the line graph_ and use colours represent instead.
+1 | _The dots in the map do not provide any further information other than the location of the event._ | Allow the _size of the dots to represent the number of fatalities._
+2 | _The labels in the line graph are superfluous._ If removed, the size of the graph can be increased for better ease of viewing. | _Remove the labels in the line graph_ and use colours to represent instead.
 
-### **2.1.3 Interactivity**
+### 2.1.3 Interactivity
 S/n | Critique | Suggestions for improvement
 - | ------ | ------
 1 | The visualisation _does not allow selection of specific months or years for deeper analysis._ This limits the usability of the visualisation. | _Include an interactive feature that allows the user to select a specific month and year to focus in to._
@@ -64,11 +65,11 @@ S/n | Critique | Suggestions for improvement
 
 The proposed visualisation above provides more in-depth analysis such as the proportion of each event type and sub type, as well as a comparison of the number of fatalities of each event type.
 
-The visualisation allows the user to select the specific month and year for more focused analysis.
+The visualisation allows the user to select the specific month and year for deeper analysis.
 
-the visualisation allows the user to select more than one country, for more useful analysis. The treemap of sub event types also allows for this same feature of selecting multiple sub event types for analysis, instead of only a single type.
+the visualisation allows the user to select more than one country for presentation, for more useful analysis. The tree map of sub event types also allows for this same feature of selecting multiple sub event types for analysis, instead of only a single type each time.
 
-The visualisation will make use of colour to replace labels, allowing for more intuitive associations, as well as to free up more space to allow the charts to be larger.
+The visualisation makes use of colour to replace labels, allowing for more intuitive associations, as well as to free up more space to allow the charts to be larger.
 
 ## 2.3 Build the visualisation
 
@@ -77,320 +78,322 @@ The visualisation will make use of colour to replace labels, allowing for more i
 ![](images/importdata.png){width=100%}
 
 Ensure data types are correct.</br>
-**Step 2**: Change _Region_ to _Country/Region_ type.
-![](images/regiontocountryregiontype.png){width=100%}
+**Step 2**: Change _Region_ to _Country/Region_ type.</br>
+![](images/regiontocountryregiontype.png){width=60%}
 
-**Step 3**: Change _Admin1_ to _State/Province_ type.
-![](images/admin1tostateprovincetype.png){width=100%}
+**Step 3**: Change _Admin1_ to _State/Province_ type.</br>
+![](images/admin1tostateprovincetype.png){width=60%}
 
-**Step 3**: Change _Admin2_ to _County_ type.
-![](images/admin2tocountytype.png){width=100%}
+**Step 4**: Change _Admin2_ to _County_ type.</br>
+![](images/admin2tocountytype.png){width=60%}
 
-**Step 4**: Change _Admin3_ to _City_ type.
-![](images/admin3tocitytype.png){width=100%}
+**Step 5**: Change _Admin3_ to _City_ type.</br>
+![](images/admin3tocitytype.png){width=60%}
 
-**Step 5**: Create a calculated field _Inter1(recoded)_.
-![](images/inter1recoded.png){width=100%}
+**Step 6**: Create a calculated field _Inter1(recoded)_.</br>
+![](images/inter1recoded.png){width=60%}
 
-**Step 6**: Create a new calculated field _Inter1(recoded)_. Enter the following formula to show the specific terminology instead of the code.
+**Step 7**: Enter the following formula to show the specific terminology instead of the code.</br>
 ![](images/inter1recodedformula.png){width=100%}
 
-**Step 7**: Create a calculated field _Inter2(recoded)_.
-![](images/inter2recoded.png){width=100%}
+**Step 8**: Create a calculated field _Inter2(recoded)_.</br>
+![](images/inter2recoded.png){width=60%}
 
-**Step 8**: Create a new calculated field _Inter2(recoded)_ and enter the formula below.
-![](images/inter2recoded.png){width=100%}
+**Step 9**: Enter the formula below.</br>
+![](images/inter2recodedformula.png){width=100%}
 
-**Step 9**: Create a calculated field _Interaction(recoded)_.
-![](images/interactionrecoded.png){width=100%}
+**Step 10**: Create a calculated field _Interaction(recoded)_.</br>
+![](images/interactionrecoded.png){width=60%}
 
-
-**Step 10**: Create a new calculated field _Interaction(recoded)_ and enter the formula shown to show the exact interaction instead of only the interaction code.
-![](images/interactionrecoded.png){width=100%}
+**Step 11**: Enter the formula shown to show the exact interaction instead of only the interaction code.</br>
+![](images/interactionrecodedformula.png){width=100%}
 
 ### 2.3.2 Creating the geospatial map representation
 
-**Step 11**: Open a hew Sheet. Drag _Country_, _Admin1_, _Admin2_, _Admin3_ onto _Region_ to create a hierarchical group of geographical data.
-![](images/hierarchicalgeographicaldata.png){width=100%}
+**Step 12**: Open a new Sheet. Drag _Country_, _Admin1_, _Admin2_, _Admin3_ onto _Region_ to create a hierarchical group of geographical data.</br>
+![](images/hierarchicalgeographicaldata.png){width=40%}
 
-**Step 12**: Drag _Country_ to the middle of the work pane and select _symbol maps_ from the _Show Me_ menu.
+**Step 13**: Drag _Country_ to the middle of the work pane and select _symbol maps_ from the _Show Me_ menu.</br>
 ![](images/symbolmaps.png){width=100%}
 
-**Step 13**: In the _Marks_ pane, click on the _“+”_ sign in front of _Country_ to expand it until _Admin3_ is shown.
+**Step 14**: In the _Marks_ pane, click on the _“+”_ sign in front of _Country_ to expand it until _Admin3_ is shown.</br>
 ![](images/expandmapuntiladmin3isshown.png){width=100%}
 
-**Step 14**: Remove _Admin1_ and _Admin2_.
+**Step 15**: Remove _Admin1_ and _Admin2_.</br>
 ![](images/removeadmin1admin2.png){width=100%}
 
-**Step 15**: Drag _Event Type_ on to the _Color_ Mark in the _Mark_ pane.
+**Step 16**: Drag _Event Type_ on to the _Color_ Mark in the _Mark_ pane.</br>
 ![](images/eventtypeontocolormark.png){width=100%}
 
-**Step 16**: Edit the transparency and border settings for better visual clarity.
+**Step 17**: Edit the transparency and border settings for better visual clarity.</br>
 ![](images/edittransparencyandborder.png){width=100%}
 
-**Step 17**: Drag _Fatalities_ on to the _Size_ Mark in the _Mark_ pane. Ensure it is measured by _SUM_ to show the total number of fatalities.
+**Step 18**: Drag _Fatalities_ on to the _Size_ Mark in the _Mark_ pane. Ensure it is measured by _SUM_ to show the total number of fatalities.</br>
 ![](images/fatalitiesontosizemark.png){width=100%}
 
-**Step 18**: Adjust the size of the circles for better clarity.
+**Step 19**: Adjust the size of the circles for better clarity.</br>
 ![](images/adjustsizeofcircles.png){width=100%}
 
-**Step 19**: Drag the _Country_ field to the _Filters_ pane. When the settings dialogue pops up, select _Use all_.
-![](images/countryfieldtofilterspane.png){width=100%}
+**Step 20**: Drag the _Country_ field to the _Filters_ pane. When the settings dialogue pops up, select _Use all_.</br>
+![](images/countryfieldtofilterspane.png){width=60%}
 
-**Step 20**: Right-click on _Country_ and select _Show Filter_.
+**Step 21**: Right-click on _Country_ and select _Show Filter_.</br>
 ![](images/countryshowfilter.png){width=100%}
 
-**Step 21**: Click on the drop-down arrow on the _Country_ filter and select _Single Value (dropdown)_.
+**Step 22**: Click on the drop-down arrow on the _Country_ filter and select _Single Value (dropdown)_.</br>
 ![](images/countrysinglevaluedropdown.png){width=100%}
 
-**Step 22**: Do the same for the _Event Type_ field.
+**Step 23**: Do the same for the _Event Type_ field.</br>
 ![](images/eventtypesinglevaluedropdown.png){width=100%}
 
-**Step 23**: Drag _Event Date_ to the _Pages_ pane twice. The first time will set to YEAR; the second time will automatically set to QUARTER.
+**Step 24**: Drag _Event Date_ to the _Pages_ pane twice. The first time will automatically set to YEAR; the second time will automatically set to QUARTER.</br>
 ![](images/eventdatetopagespanetwice.png){width=100%}
 
-**Step 24**: Right-click on the QUARTER field and select _Month_.
+**Step 25**: Right-click on the QUARTER field and select _Month_.</br>
 ![](images/quarterfieldselectmonth.png){width=100%}
 
-**Step 25**: Drag _Admin1_ to the pane and expand it to show _Admin2_ and _Admin3_.</br>
-Drag _Fatalities_ to the _Size_ Mark, and _Event Type_ to the _Color_ Mark.
+**Step 26**: Drag _Admin1_ to the pane and expand it to show _Admin2_ and _Admin3_.</br>
+Drag _Fatalities_ to the _Size_ Mark, and _Event Type_ to the _Color_ Mark.</br>
 ![](images/fatalitiestosizeeventtypetocolor.png){width=100%}
 
-**Step 26**: Drag _Country_ field on to the map. The dialogue _Add a Marks Layer_ will appear. Drop the Country field on the icon to create a new Mark Layer.
-![](images/newmarklayer.png){width=100%}
+**Step 27**: Drag _Country_ field on to the map. The dialogue _Add a Marks Layer_ will appear. Drop the _Country_ field on the icon to create a new Mark Layer.</br>
+![](images/newmarklayer.png){width=50%}
 
-**Step 27**: Drag _Fatalities_ field on to the _Color_ layer in the _Marks_ Layer pane.
+**Step 28**: Drag _Fatalities_ field on to the _Color_ layer in the _Marks Layer_ pane.</br>
 ![](images/fatalitiestocolorlayer.png){width=100%}
 
-**Step 28**: Right-click on _SUM(Fatalities)_ to edit the colour settings.
+**Step 29**: Right-click on _SUM(Fatalities)_ to edit the colour settings.</br>
 ![](images/editfatalitiescoloursettings1.png){width=100%}
 
-**Step 29**: Adjust the colour settings as shown.
-![](images/editfatalitiescoloursettings2.png){width=100%}
+**Step 30**: Adjust the colour settings as shown.</br>
+![](images/editfatalitiescoloursettings2.png){width=60%}
 
-**Step 30**: Click on the _Tooltip_ Mark in the _Event Type_ Mark pane and edit the Tooltip as shown.
+**Step 31**: Click on the _Tooltip_ Mark in the _Event Type_ Mark pane and edit the Tooltip as shown.</br>
 ![](images/edittooltip1.png){width=100%}
 
-**Step 31**: Click on the _Tooltip_ Mark in the _Country_ Mark pane and edit the Tooltip as shown.
+**Step 32**: Click on the _Tooltip_ Mark in the _Country_ Mark pane and edit the Tooltip as shown.</br>
 ![](images/edittooltip2.png){width=100%}
 
-**Step 32**: Rename Sheet as _Map of armed conflict in Southeast Asia_.
-![](images/renamesheet1.png){width=100%}
+**Step 33**: Rename Sheet as _Map of armed conflict in Southeast Asia_.</br>
+![](images/renamesheet1.png){width=50%}
 
-**Step 33**: Right-click on Sheet title and select _Hide Title_, as this is not necessary for the dashboard.
+**Step 34**: Right-click on Sheet title and select _Hide Title_, as this is not necessary for the dashboard.</br>
 ![](images/editsheettitle1.png){width=100%}
 
-**Step 34**: The final design of this sheet is as shown.
+**Step 35**: The final design of this sheet is as shown.</br>
 ![](images/finalsheet1.png){width=100%}
 
 ### 2.3.2 Creating the line graph of count of fatalities by year
 
-**Step 35**: Open a new Sheet.</br>
-Drag the following fields Region, Event Date to Columns, and Event Type and Fatalities to Rows.
+**Step 36**: Open a new Sheet.</br>
+Drag the _Region_ and _Event Date_ fields to _Columns_, and _Event Type_ and _Fatalities_ fields to _Rows_.</br>
 ![](images/regioneventdateeventtypefatalities.png){width=100%}
 
-**Step 36**: Drag the _Event Type_ and _Country_ fields to the _Colors_ Mark.
+**Step 37**: Drag the _Event Type_ and _Country_ fields to the _Colors_ Mark.</br>
 ![](images/eventtypecountrytocolorsmark.png){width=100%}
 
-**Step 37**: Drag _Event Date_ to the _Filters_ Pane, and select _Months_.</br>
-Click Next.
-![](images/eventdatetofilterspane1.png){width=100%}
+**Step 38**: Drag _Event Date_ to the _Filters_ Pane, and select _Months_.</br>
+Click Next.</br>
+![](images/eventdatetofilterspane1.png){width=60%}
 
-**Step 38**: Select _Use all_.</br>
-Click OK.
-![](images/eventdatetofilterspane2.png){width=100%}
+**Step 39**: Select _Use all_.</br>
+Click OK.</br>
+![](images/eventdatetofilterspane2.png){width=60%}
 
-**Step 39**: Select the following settings for the _Country_ field.
-![](images/settingsforcountryfield.png){width=100%}
+**Step 40**: Select the following settings for the _Country_ field.</br>
+![](images/settingsforcountryfield.png){width=60%}
 
-**Step 40**: Right-click on the y-axis of any of the 6 charts and un-select _Show Header_.
+**Step 41**: Right-click on the y-axis of any of the 6 charts and un-select _Show Header_.</br>
 ![](images/unselectshowheader1.png){width=100%}
 
-**Step 41**: Right-click on the y-axis and select _Edit Axis_.
+**Step 42**: Right-click again on the y-axis and select _Edit Axis_.</br>
 ![](images/editaxis1.png){width=100%}
 
-**Step 42**: Set the following settings.
-![](images/editaxis2.png){width=100%}
+**Step 43**: Set the following settings.</br>
+![](images/editaxis2.png){width=60%}
 
-**Step 43**: Right-click on the x-axis label and un-select _Show Header_.
+**Step 44**: Right-click on the x-axis label and un-select _Show Header_.</br>
 ![](images/unselectshowheader2.png){width=100%}
 
-**Step 44**: Click on the _Tooltip_ Mark in Mark pane and edit the Tooltip as shown below.
+**Step 45**: Click on the _Tooltip_ Mark in Mark pane and edit the Tooltip as shown below.</br>
 ![](images/edittooltip3.png){width=100%}
 
-**Step 45**: Rename Sheet as _Trending of event types_.
-![](images/renamesheet2.png){width=100%}
+**Step 46**: Rename Sheet as _Trending of event types_.</br>
+![](images/renamesheet2.png){width=50%}
 
-**Step 46**: Edit the Sheet title as shown.
+**Step 47**: Edit the Sheet title as shown.</br>
 ![](images/editsheettitle2.png){width=100%}
 
-**Step 47**: The final design of this sheet is as shown.
+**Step 48**: The final design of this sheet is as shown.</br>
 ![](images/finalsheet2.png){width=100%}
 
-### 2.3.3 Creating the treemap of sub event types
+### 2.3.3 Creating the tree map of sub event types
 
-**Step 48**: Open a new Sheet.</br>
-Drag _Sub Event Type_ to the _Marks_ Pane 3 times: once over to the _Size_ Mark, a second time to the _Color_ Mark, and a third time to the _Text_ Mark.
+**Step 49**: Open a new Sheet.</br>
+Drag _Sub Event Type_ to the _Marks_ Pane three times: once over to the _Size_ Mark, a second time to the _Color_ Mark, and a third time to the _Text_ Mark.</br>
 ![](images/subeventtypetomarkspane.png){width=100%}
 
-**Step 49**: Right-click on the Color _Sub Event Type_ and change the measure to _Count_.
-![](images/subeventtypetocount1.png){width=100%}
+**Step 50**: Right-click on the Color _Sub Event Type_ and change the measure to _Count_.</br>
+![](images/subeventtypetocount1.png){width=40%}
 
-**Step 50**: Do the same for the Size _Sub Event Type_.
-![](images/subeventtypetocount2.png){width=100%}
+**Step 51**: Do the same for the Size _Sub Event Type_.</br>
+![](images/subeventtypetocount2.png){width=50%}
 
-**Step 51**: Right-click on the Color _Sub Event Type_ again and change _Quick Table Calculation_ to _Percent of Total_.
-![](images/subeventtypetopercentoftotal1.png){width=100%}
+**Step 52**: Right-click on the Color _Sub Event Type_ again and change _Quick Table Calculation_ to _Percent of Total_.</br>
+![](images/subeventtypetopercentoftotal1.png){width=50%}
 
-**Step 52**: Do the same for Size _Sub Event Type_.
-![](images/subeventtypetopercentoftotal2.png){width=100%}
+**Step 53**: Do the same for Size _Sub Event Type_.</br>
+![](images/subeventtypetopercentoftotal2.png){width=50%}
 
-**Step 53**: Drag _Event Type_, _Event Date (by Year)_, _Event Date (by Month)_, and _Country_ to the _Filters_ pane. Right-click on each of them and select _Show Filter_. Customise the filters as shown on the right-hand side pane: _Country_ and _Event Type_ as _Multiple Values (dropdown)_, _YEAR(Event Date)_ and _MONTH(Event Date)_ as _Single Value (slider)_.
+**Step 54**: Drag _Event Type_, _Event Date (by Year)_, _Event Date (by Month)_, and _Country_ to the _Filters_ pane. Right-click on each of them and select _Show Filter_. Customise the filters as shown on the right-hand side pane: _Country_ and _Event Type_ as _Multiple Values (dropdown)_, _YEAR(Event Date)_ and _MONTH(Event Date)_ as _Single Value (slider)_.</br>
 ![](images/customisetreemap.png){width=100%}
 
-**Step 54**: Click on the small drop-down arrow on _% of Total CNT(Sub Event Type)_ and select _Edit Colors..._.
-![](images/percentageoftotalcntsubtypeeventeditcolours1.png){width=100%}
+**Step 55**: Click on the small drop-down arrow on _% of Total CNT(Sub Event Type)_ and select _Edit Colors..._.</br>
+![](images/percentageoftotalcntsubtypeeventeditcolours1.png){width=40%}
 
-**Step 55**: Customise the colour settings as shown.
+**Step 56**: Customise the colour settings as shown.</br>
 ![](images/percentageoftotalcntsubtypeeventeditcolours2.png){width=100%}
 
-**Step 56**: Click on the _Tooltip_ Mark in Mark pane and edit the Tooltip as shown.
+**Step 57**: Click on the _Tooltip_ Mark in Mark pane and edit the Tooltip as shown.</br>
 ![](images/edittooltip4.png){width=100%}
 
-**Step 57**: Rename the Sheet as: _Proportion of sub event type_.
-![](images/renamesheet3.png){width=100%}
+**Step 58**: Rename the Sheet as: _Proportion of sub event type_.</br>
+![](images/renamesheet3.png){width=50%}
 
-**Step 58**: Edit the Sheet title as shown.
+**Step 59**: Edit the Sheet title as shown.</br>
 ![](images/editsheettitle3.png){width=100%}
 
-**Step 59**: The final design of this sheet is as shown.
+**Step 60**: The final design of this sheet is as shown.</br>
 ![](images/finalsheet3.png){width=100%}
-1
+
 ### 2.3.4 Creating the pie chart event types
 
-**Step 60**: Open a new Sheet.</br>
-Drag _Event Type_ to the _Color_ Mark, and a second time on to the _Size_ Mark.
+**Step 61**: Open a new Sheet.</br>
+Drag _Event Type_ to the _Color_ Mark, and a second time on to the _Size_ Mark.</br>
 ![](images/eventtypetocolorandsize.png){width=100%}
 
-**Step 61**: Right-click on the Size _Event Type_ and change the measure to _Count_.
-![](images/eventtypetocount.png){width=100%}
+**Step 62**: Right-click on the Size _Event Type_ and change the measure to _Count_.</br>
+![](images/eventtypetocount.png){width=50%}
 
-**Step 62**: Right-click again on the Size _Event Type_ and change _Quick Table Calculation_ to _Percent of Total_.
-![](images/eventtypetopercentoftotal.png){width=100%}
+**Step 63**: Right-click again on the Size _Event Type_ and change _Quick Table Calculation_ to _Percent of Total_.</br>
+![](images/eventtypetopercentoftotal.png){width=50%}
 
-**Step 63**: Drag _Event Date (by Year)_, _Event Date (by Month)_, and _Country_ to the _Filters_ pane. Right-click on _YEAR(Event Date)_ and _MONTH(Event Date)_, and _select Show Filter_. Customise the filters as shown on the right-hand side pane: _YEAR(Event Date)_ and _MONTH(Event Date)_ as _Single Value (slider)_.
+**Step 64**: Drag _Event Date (by Year)_, _Event Date (by Month)_, and _Country_ to the _Filters_ pane. Right-click on _YEAR(Event Date)_ and _MONTH(Event Date)_, and _select Show Filter_. Customise the filters as shown on the right-hand side pane: _YEAR(Event Date)_ and _MONTH(Event Date)_ as _Single Value (slider)_.</br>
 ![](images/customisepiechart.png){width=100%}
 
-**Step 64**: Click on the _Tooltip_ Mark in _Mark_ pane and edit the Tooltip as shown below.
+**Step 65**: Click on the _Tooltip_ Mark in _Mark_ pane and edit the Tooltip as shown below.</br>
 ![](images/edittooltip5.png){width=100%}
 
-**Step 65**: Rename the Sheet as _Pie chart of event types_.
-![](images/renamesheet4.png){width=100%}
+**Step 66**: Rename the Sheet as _Pie chart of event types_.</br>
+![](images/renamesheet4.png){width=50%}
 
-**Step 66**: Edit the title as shown.
+**Step 67**: Edit the title as shown.</br>
 ![](images/editsheettitle4.png){width=100%}
 
-**Step 67**: The final design of this sheet is as shown.
+**Step 68**: The final design of this sheet is as shown.</br>
 ![](images/finalsheet4.png){width=100%}
 
 ### 2.3.5 Creating the bar chart of fatalities by event type
 
-**Step 68**: Open a new Sheet.</br>
-Drag _Event Type_ to the _Columns_ Pane, and a second time on to the _Rows_ Pane.
+**Step 69**: Open a new Sheet.</br>
+Drag _Event Type_ to the _Columns_ Pane, and a second time on to the _Rows_ Pane.</br>
 ![](images/eventtypecolumnsfatalitiesrows.png){width=100%}
 
-**Step 69**: Drag _Event Type_ to the _Color_ Mark.
+**Step 70**: Drag _Event Type_ to the _Color_ Mark.</br>
 ![](images/eventtypetocolour.png){width=100%}
 
-**Step 70**: Drag _Event Date (by Year)_, _Event Date (by Month)_, and _Country_ to the _Filters_ pane.
+**Step 71**: Drag _Event Date (by Year)_, _Event Date (by Month)_, and _Country_ to the _Filters_ pane.</br>
 ![](images/eventdatecountrytofilter.png){width=100%}
 
-**Step 71**: Right click on the column field label and select _Hide Field Labels_ for Columns.
-![](images/hidefieldlabels1.png){width=100%}
+**Step 72**: Right click on the column field label and select _Hide Field Labels_ for Columns.</br>
+![](images/hidefieldlabels1.png){width=50%}
 
-**Step 72**: Right-click on the y-axis and un-select _Show Header_.
-![](images/unselectshowheader3.png){width=100%}
+**Step 73**: Right-click on the y-axis and un-select _Show Header_.</br>
+![](images/unselectshowheader3.png){width=30%}
 
-**Step 73**: Right-click on any of the bars and un-select _Show Header_.
-![](images/unselectshowheader4.png){width=100%}
+**Step 74**: Right-click on any of the bars and un-select _Show Header_.</br>
+![](images/unselectshowheader4.png){width=50%}
 
-**Step 74**: Click on the _Tooltip_ Mark in Mark pane and edit the Tooltip as shown.
+**Step 75**: Click on the _Tooltip_ Mark in Mark pane and edit the Tooltip as shown.</br>
 ![](images/edittooltip6.png){width=100%}
 
-**Step 75**: Edit the title as shown.
+**Step 76**: Edit the title as shown.</br>
 ![](images/editsheettitle5.png){width=100%}
 
-**Step 76**: The final design of this sheet is as shown.
-![](images/finalsheet5.png){width=100%}
+**Step 77**: The final design of this sheet is as shown.</br>
+![](images/finalsheet5.png){width=100%}</br>
 
 ### 2.3.6 Creating the dashboard
 
-**Step 77**: Open a new Dashboard.</br>
-Drag the following Sheets into the Dashboard: _Map of armed conflict in Southeast Asia_, _Trending of event types_, _Proportion of sub event type_, _Pie chart of event types_, _Fatalities by event type_ and arrange them and the filter controls as shown.
+**Step 78**: Open a new Dashboard.</br>
+Drag the following Sheets into the Dashboard: _Map of armed conflict in Southeast Asia_, _Trending of event types_, _Proportion of sub event type_, _Pie chart of event types_, _Fatalities by event type_ and arrange them and the filter controls as shown.</br>
 ![](images/creatingthedashboard.png){width=100%}
 
-**Step 78**: Set the size of the dashboard to _Automatic_.
-![](images/dashboardsizetoauto.png){width=100%}
+**Step 79**: Set the size of the dashboard to _Automatic_.</br>
+![](images/dashboardsizetoauto.png){width=50%}
 
-**Step 79**: At the _Country filter_ control, click on the small drop-down arrow and select _Apply to Worksheets_, _Selected Worksheets..._.
+**Step 80**: At the _Country filter_ control, click on the small drop-down arrow and select _Apply to Worksheets_, _Selected Worksheets..._.</br>
 ![](images/countryapplytoworksheets1.png){width=100%}
 
-**Step 80**: Select the Sheets as shown.
+**Step 81**: Select the Sheets as shown.</br>
 ![](images/countryapplytoworksheets2.png){width=100%}
 
-**Step 81**: Perform the above 2 steps for filter controls _Year_ and _Month_ but **do not** select Trending of event types.
+**Step 82**: Perform the above 2 steps for filter controls _Year_ and _Month_ but **do not** select Trending of event types.</br>
 ![](images/countryapplytoworksheets3.png){width=100%}
 
-**Step 82**: For the _Conflict Type_ filter control that filters only the treemap, select _Only This Worksheet_.
+**Step 83**: For the _Conflict Type_ filter control that filters only the tree map, select _Only This Worksheet_.</br>
 ![](images/treemaponlythisworksheet.png){width=100%}
 
-**Step 83**: Edit the title of the dashboard as shown.
+**Step 84**: Edit the title of the dashboard as shown.</br>
 ![](images/editsheettitle5.png){width=100%}
 
-**Step 84**: The final dashboard design is as shown.
+**Step 85**: The final dashboard design is as shown.</br>
 ![](images/finaldashboard.png){width=100%}
 
 # 3.0 Insights from the new visualisation
 
 ### Observation 1: Across the 11 years, violence against civilians caused the most number of fatalities
-This is even more fatalities than battles between armed and organised actors. This immediately raises a concern that the ordinary civilians seem to be at higher risk of losing their lives amongst all types of violence.
-![](images/observation1-1.png){width=100%}
+This are even more fatalities than battles between armed and organised actors. This immediately raises a concern that the ordinary civilians seem to be at higher risk of losing their lives amongst all types of violence.</br>
+![](images/observation1-1.png){width=60%}
 
-From the year-on-year trend of conflict types, it can be seen that there was a large spike in the number of fatalities in 2016. Upon closer examination, this seems to have been contributed in large from the Philippines. HOwever, we should also take into consideration that data from the Philippines prior to 2016 is not available in this data set.
-![](images/observation1-2.png){width=100%}
+From the year-on-year trend of conflict types, it can be seen that there was a large spike in the number of fatalities in 2016. Upon closer examination, this seems to have been contributed in large part from The Philippines. HOwever, we should also take into consideration that data from the Philippines prior to 2016 is not available in this data set.</br>
+![](images/observation1-2.png){width=60%}
 
 If any solace can be found, it is in the fact that all conflict types have generally been on the decline.
 
-### Observation 2: Myanmar has a regular cycle of battles
-This can be seen from the year-on-year chart which shows that there were peaks in the number of fatalities resulting from battles in 2011, 2015, and 2019. This seems to coincide with the dissolution of the military junta in 2011, the elections in 2015, and fighting between the Myanmar army and the ethnic Rakhine-backed Arakan army in 2019. It is noteworthy that this seems to be a 4-year cycle.
+### Observation 2: Myanmar has had a regular 4-year cycle of battles for the past 9 years
+This can be seen from the year-on-year chart which shows that there were peaks in the number of fatalities resulting from battles in 2011, 2015, and 2019. This seems to coincide with the dissolution of the military junta in 2011, the elections in 2015, and fighting between the Myanmar army and the ethnic Rakhine-backed Arakan army in 2019. It is noteworthy that this seems to be a 4-year cycle, which may hint at a systemic issue to be mitigated.</br>
+![](images/myanmar4yearcycle.png){width=60%}
 
 ### Observation 3: Most of the fatalities in The Philippines were due to violence against civilians
-The Philippines had the highest number of fatalities among all Southeast Asian countries from 2010 to 2020, as can be seen from the deeper red hue on the map.![](images/observation3-1.png){width=100%}
+The Philippines had the highest number of fatalities among all Southeast Asian countries from 2010 to 2020, as can be seen from the deeper red hue on the map.</br>
+![](images/observation3-1.png){width=100%}
 
-Focusing in to The Philippines, the bar chart shows that from 2016 to 2020, the highest number of fatalities are due to violence against civilians.
-![](images/observation3-2.png){width=100%}
+Focusing in to The Philippines, the bar chart shows that from 2016 to 2020, the highest number of fatalities are due to violence against civilians.</br>
+![](images/observation3-2.png){width=60%}
 
-The pie chart corroborates this as it shows that the most common conflict type was violence against civilians.
-![](images/observation3-3.png){width=100%}
+The pie chart corroborates this as it shows that the most common conflict type was violence against civilians.</br>
+![](images/observation3-3.png){width=60%}
 
-The treemap shows that attacks were the most common conflict sub-type, accounting for almost 60% of all conflict sub-types. Attacks are defined in the ACLED codebook(https://acleddata.com/acleddatanew/wp-content/uploads/dlm_uploads/2019/01/ACLED_Codebook_2019FINAL.docx.pdf) as "when civilians are targeted with any violence by an organised armed actor".
-![](images/observation3-4.png){width=100%}
+The tree map shows that attacks were the most common conflict sub-type, accounting for almost 60% of all conflict sub-types. Attacks are defined in the [ACLED Codebook](https://acleddata.com/acleddatanew/wp-content/uploads/dlm_uploads/2019/01/ACLED_Codebook_2019FINAL.docx.pdf) as "when civilians are targeted with any violence by an organised armed actor".</br>
+![](images/observation3-4.png){width=60%}
 
 ### Observation 4: The Philippines accounts for the most battles in 2017
-Turning our focus to the next conflict type that accounts for the most fatalities - battles - the year with the most number of battles was 2017. Zooming into 2017, we see that The Philippines accounts for the most number of battles in that year.
+Turning our focus to the next conflict type that accounts for the most fatalities - battles - the year with the most number of battles was 2017. Zooming in to 2017, we see that The Philippines accounts for the most number of battles in that year.</br>
 ![](images/observation4-1.png){width=100%}
 
-Focusing in on The Philippines, the battle with the most fatalities for that year was in Bangsamoro Autonomous Region in Muslim Mindanao, Lanao del Sur, Marawi - with 1,192 fatalities.
+Focusing in on The Philippines, the battle with the most fatalities for that year was in Bangsamoro Autonomous Region in Muslim Mindanao, Lanao del Sur, Marawi - with 1,192 fatalities.</br>
 ![](images/observation4-2.png){width=100%}
 
-Even so, violence against civilians still 'topped the charts' in terms of number of events, and number of fatalities, corroborating with obervation 1.
+Even so, violence against civilians still 'topped the charts' in terms of number of events, and number of fatalities, corroborating with observation 1.
 
-### Observation 5: Protests are the least deadly conflict type.
-Protests make up almost 30% of all conflict types from 2010-2020, but accounts for only 108 fatalities. The most fatalities coming from a conflict in Dien Bein, Moung Nhe, Viet Nam.
+### Observation 5: Protests are the least deadly conflict type
+Protests make up almost 30% of all conflict types from 2010-2020, but accounts for only 108 fatalities. The most fatalities coming from a conflict in Dien Bein, Moung Nhe, Viet Nam.</br>
 ![](images/observation5-1.png){width=100%}
 
-From this, we can see that protests are the least deadly in terms of fatalities. But contrast this with violence against civilians which has the highest number of fatalities, we can reach the conclusion that civilians involved in armed conflict can be vulnerable to violence but can safely partake in peaceful protests. This may advise how civilians and rights groups can strategise their activities to make their voice heard in the safest way possible.
+From this, we can see that protests are the least deadly in terms of fatalities. Contrasting this with violence against civilians which has the highest number of fatalities, we can reach the conclusion that civilians involved in armed conflict can be vulnerable to violence but can also generally partake safely in peaceful protests. This may advise how civilians and rights groups can strategise their activities to make their voice heard in a way that minimises - if not totally elliminates - harm to civilians.
 
+</br>
 
 Thanks for visiting my blog!
 

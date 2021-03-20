@@ -2,12 +2,14 @@
 title: "DataViz Makeover 2"
 description: |
   This visualisation presents public sentiment towards a COVID-19 vaccine.
+preview: images/finaldashboard.jpg
 author:
   - name: Andy WONG 
     url: https://www.linkedin.com/in/andywongkh
 date: 02-19-2021
 output:
   distill::distill_article:
+    toc: true
     self_contained: false
 ---
 
