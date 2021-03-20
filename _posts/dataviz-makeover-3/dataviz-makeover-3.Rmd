@@ -24,7 +24,7 @@ On 1 February 2021, the world woke up to news of a coup in Myanmar. Innocent liv
 
 In light of these developments, this dashboard visualises armed conflict in Southeast Asia from 2010 to 2020, with the objective of surfacing the most common and deadliest types of conflict.
 
-This visualisation makes use of data provided by [The Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/#/dashboard).
+This visualisation makes use of data provided by [The Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/#/dashboard). ![](images/finaldashboard.png){width=0%}
 
 ## 1.1 The Scene
 This is a visualisation created to reveal the saptio-temporal patterns of armed conflict in selected Southeast Asian countries between 2015 to 2020. ![](images/assignmentgraph.png){width=100%}
