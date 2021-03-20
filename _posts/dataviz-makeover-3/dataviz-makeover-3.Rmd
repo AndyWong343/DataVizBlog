@@ -1,7 +1,8 @@
 ---
 title: "DataViz Makeover 3"
 description: |
-  This visualisation surfaces the most common and deadliest armed conflicts in Southeast Asia, from 2010 to 2020.</br></br>The visualisation can be seen [here](https://public.tableau.com/profile/andywong#!/vizhome/DataVizMakeover3ArmedconflictinSoutheastAsia/GeolocationofarmedconflictinSoutheastAsia).
+  This visualisation surfaces the most common and deadliest armed conflicts in Southeast Asia, from 2010 to 2020.</br></br>The made-over visualisation can be seen [here](https://public.tableau.com/profile/andywong#!/vizhome/DataVizMakeover3ArmedconflictinSoutheastAsia/GeolocationofarmedconflictinSoutheastAsia).
+  ![](images/finaldashboard.png){width=100%}
 preview: images/finaldashboard.png
 author:
   - name: Andy WONG 
